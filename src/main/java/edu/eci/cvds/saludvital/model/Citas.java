@@ -5,9 +5,6 @@ public class Citas {
     private String documento;
     private String correo;
     private LocalDate fecha;
-    private String Especialidades;
-    private String nombreDoctor;
-    private String ubicacion;
-
+    private Especialidades especialidad;
 
 }
