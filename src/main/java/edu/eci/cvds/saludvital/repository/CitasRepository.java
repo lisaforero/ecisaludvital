@@ -5,4 +5,6 @@ import java.util.List;
 
 public interface CitasRepository extends MongoRepository<Citas, string> {
     List<Citas> findbynombreUsuario(String nombreUsuario);
+    List<Citas> findbydocumento(String documento);
+    
 }
